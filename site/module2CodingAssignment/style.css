@@ -29,17 +29,20 @@ p#head {
 p.subhead {
 	font-size: 125%;
 	float: right;
-	background-color: pink;
 	border-color: yellow;
 	border-style: solid;
 	padding-left: 4px;
 	padding-right: 4px;
 	color: black;
 }
-p.subhead2 {
-	font-size: 125%;
-	color: yellow;
-	width: text;
+p.subhead#chicken {
+	background-color: pink;
+}
+p.subhead#beef {
+	background-color: deepskyblue;
+}
+p.subhead#sushi {
+	background-color: snow;
 }
 *.desc {
 	clear: both;
